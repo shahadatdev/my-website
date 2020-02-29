@@ -57,7 +57,7 @@ header
 }
 .form-inline
 {
-    padding: 0 25px;
+    padding: 0 20px;
 }
 .col-md-6
 {
@@ -90,6 +90,13 @@ header
 }
 
 
+#body2
+{
+	padding: 10;
+	
+}
+
+
 /*--------footer css----------*/
 
 .footer-distributed{
@@ -101,7 +108,7 @@ header
 	font: bold 16px sans-serif;
  
     padding: 20px 20px;
-	margin-top: 0;
+	margin-top: 10;
 }
  
 .footer-distributed .footer-left,
