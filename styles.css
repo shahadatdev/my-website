@@ -90,9 +90,9 @@ header
 }
 
 
-#body2
+#slider
 {
-	padding: 10;
+	padding: 30;
 	
 }
 
@@ -109,6 +109,7 @@ header
  
     padding: 20px 20px;
 	margin-top: 10;
+	padding: 10;
 }
  
 .footer-distributed .footer-left,
