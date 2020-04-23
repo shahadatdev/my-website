@@ -16,7 +16,8 @@ a{
 body{
     font: 1.6rem Helvetica;
     height: 100%;
-    margin: 0;
+	margin: 0;
+	color: black;
 
 }
 
@@ -46,29 +47,15 @@ body{
 }
 
 .slider-text{
-	padding: 4rem;
+	margin-top: 7rem;
 	font-size: 3rem;
 	font-weight: bold;
 	text-align: center;
 }
 
 
-
-
-.brand a{
-    color: yellow;
-    font-size: 2.5rem;
-    font-weight: bold;
-    text-decoration: none;
-    
-
-}
-
-
 .video{
-	display: flex;
-	padding: 4rem;
-	display: flex;
+	margin-left: 2.5rem;
 }
 
 /*product slider*/
@@ -83,9 +70,10 @@ body{
 	position: center;
 }
 .pic{
+	margin-top: 4rem;
 	display: flex;
 	
-	padding: 4rem;
+	padding: 2.5rem;
 }
 
 .blog .carousel-indicators {
@@ -98,10 +86,10 @@ body{
 /* The colour of the indicators */
 
 .blog .carousel-indicators li {
-    background: #a3a3a3;
-    border-radius: 50%;
-    width: 8px;
-    height: 8px;
+    background: black;
+    border-radius: 30%;
+    width: 15px;
+    height: 5px;
 }
 
 .blog .carousel-indicators .active {
@@ -300,51 +288,18 @@ footer{
 
 /*   home screen */
 
-.products{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-
-}
-.products li{
-    list-style-type: none;
-    padding: 0;
-    flex: o 1 34rem;
-    margin: 1rem;
-    height: 50rem;
-    border-bottom: .1rem #c0c0c0 solid;
-
-}
-.product{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
-}
 
 .product-name{
-    font-size: 2rem;
-    font-weight: bold;
+	font-size: 1,5rem;
+	color: gray;
 
 }
 
-.product-brabd{
-    font-size: 1.2rem;
-    color: #808080;
-}
 .product-price{
-    font-size: 2rem;
-    font-weight: bold;
+	font-size: 2rem;
+	text-decoration-color: black;
 }
 
-.product-image{
-    max-width: 34rem;
-    max-height: 34rem;
-}
 
-.product-rating{
-    margin-bottom: 1rem;
-}
 
 
